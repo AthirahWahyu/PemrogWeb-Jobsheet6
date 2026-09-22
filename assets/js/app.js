@@ -11,7 +11,7 @@ async function muatDataTabel(urlJson, daftarKunci) {
 
     try {
         // Delay simulasi 3 detik
-        await new Promise((resolve) => setTimeout(resolve, 3000));
+        await new Promise((resolve) => setTimeout(resolve, 3000)); 
 
         const res = await fetch(urlJson);
         if (!res.ok) {
